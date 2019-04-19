@@ -1,6 +1,7 @@
 #Author --> Bhushan Gawali
 #codechef username --> bhushanoff
 
+print('enter the number of times you\'ll input values')
 t=int(input())
 while t:
     string=input()
