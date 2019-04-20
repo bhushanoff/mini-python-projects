@@ -1,9 +1,16 @@
 #Author --> Bhushan Gawali
-#codechef username --> bhushanoff
+#GitHub username --> bhushanoff
+#CodeChef username --> bhushanoff
 
-print('enter the number of times you\'ll input values')
+#This code converts:
+#JoHn TOm WiLLLIams to J. T. Williams
+#tom Williams to T. Williams
+#tom to Tom
+
+print('how many times you\'ll input names ?')
 t=int(input())
 while t:
+    print('Enter the name')
     string=input()
     count=0 #number of blank spaces
     for i in string:    #counting blank spaces
