@@ -13,6 +13,7 @@ def comma(num):
     while j<=count:
         other_num.insert(x-3*j,',')
         j+=1
+    other_num.pop(0)
     return other_num
 
 print('how many numbers you want to enter ?')
