@@ -2,22 +2,22 @@ import random
 print('enter number of players more than 3 and length of track')
 num,length=map(int,input().split())
 k=0
-'''
-indiv=[' ']*length
+
 main=[]
-main=4*indiv
-'''
+for i in range (num):
+    main.append([0])
+
 j=0
 for i in range(length//2+num+1):
     '''
-    if i==0 and j==0:
+    if i<num:
         for j in range(num):
-            main[j][0]='*'
+            print('**')
+    elif i>=num:
+        for j in range(i):  #blank spaces in beginning
+            print('##',end='')     #2 blank spaces
     '''
-    for j in range(i):  #blank spaces in beginning
-        print('  ',end='')     #2 blank spaces
-    
-    if i<=length//2:
+    if i<=length//2 :
         for j in range(num+1):  # for | | .... in beginning
             if j < num:
                 print('\\ ',end='')
