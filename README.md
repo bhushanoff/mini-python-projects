@@ -1,2 +1,6 @@
 # mini-python-projects
-has all the mini projects I did in Python till date
+ 
+ 
+ Eons ago, I was interested in Python. And then I wasn't.
+ 
+ Behold the magnificent accomplishments I made in Python :)
